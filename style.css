@@ -1,0 +1,24 @@
+/* HUD fixo no canto inferior direito */
+.hud {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(26, 26, 26, 0.9);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-size: 14px;
+    z-index: 1000;
+  }
+  
+  .hud h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .hud p {
+    margin: 0;
+    line-height: 1.4;
+  }
+  
